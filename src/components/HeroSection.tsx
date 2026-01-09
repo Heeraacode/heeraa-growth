@@ -2,7 +2,7 @@ import { ArrowRight } from "./decorative/arrowPath.tsx";
 import { HeroDecorations } from "./decorative/DecorativeElements";
 import { DottedCircle } from "./decorative/dottedCircle";
 import { Sparkle, StarBurst } from "./decorative/sparkle";
-import heroImage from "@/assets/hero.jpeg";
+import heroImage from "@/assets/hero.jpg";
 
 export const HeroSection = () => {
   const scrollToSection = (id: string) => {
