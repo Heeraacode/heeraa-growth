@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { HeroDecorations } from "./decorative/decorativeElements";
 import { DottedCircle } from "./decorative/dottedCircle";
 import { Sparkle, StarBurst } from "./decorative/sparkle";
-import heroImage from "@/assets/hero.jpg";
+import heroImage from "@/assets/hero.jpeg";
 
 export const HeroSection = () => {
   const scrollToSection = (id: string) => {
