@@ -1,6 +1,6 @@
-import { Sparkle, StarBurst } from "./Sparkle";
-import { DottedCircle, SolidDot } from "./DottedCircle";
-import { LoopArrow } from "./ArrowPath";
+import { Sparkle, StarBurst } from "./sparkle";
+import { DottedCircle, SolidDot } from "./dottedCircle";
+import { LoopArrow } from "./arrowPath";
 
 export const HeroDecorations = () => {
   return (
