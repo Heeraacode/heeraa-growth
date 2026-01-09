@@ -16,7 +16,7 @@ export const ApproachSection = () => {
   const ref = useScrollAnimation();
 
   return (
-    <section className="relative section-padding page-padding overflow-hidden">
+    <section id="approach" className="relative section-padding page-padding overflow-hidden">
       {/* Artistic decorations */}
       <Sparkle className="top-[15%] right-[10%]" size="md" />
       <Sparkle className="bottom-[20%] left-[5%]" size="sm" />
@@ -39,24 +39,21 @@ export const ApproachSection = () => {
           {steps.map((step, index) => (
             <div
               key={step.num}
-              className="approach-item bg-card rounded-lg p-4 text-center relative hover:-translate-y-1 hover:shadow-[0_8px_25px_rgba(0,0,0,0.06)] transition-all fade-up hover-target"
+              className="approach-step bg-card rounded-lg p-4 relative hover:-translate-y-0.5 hover:shadow-[0_8px_25px_rgba(0,0,0,0.06)] transition-all fade-up hover-target"
+              style={{ animationDelay: `${index * 100}ms` }}
             >
-              {index < steps.length - 1 && (
-                <span className="hidden md:block absolute -right-2 top-1/2 -translate-y-1/2 text-primary/30 text-xs">
-                  →
-                </span>
-              )}
-              <div className="font-serif text-xl text-primary/30 mb-1">
+              <span className="font-serif text-lg text-primary/30 absolute top-2 right-2">
                 {step.num}
-              </div>
-              <h4 className="text-sm font-semibold mb-1">{step.title}</h4>
-              <div className="font-handwritten text-base text-primary">
+              </span>
+              <h4 className="font-serif text-sm font-medium mb-1 pr-5">
+                {step.title}
+              </h4>
+              <p className="font-handwritten text-xs text-primary rotate-[-2deg]">
                 {step.note}
-              </div>
+              </p>
             </div>
           ))}
         </div>
-        
       </div>
     </section>
   );
