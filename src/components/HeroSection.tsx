@@ -1,5 +1,5 @@
 import { ArrowRight } from "./decorative/arrowPath.tsx";
-import { HeroDecorations } from "./decorative/decorativeElements";
+import { HeroDecorations } from "./decorative/DecorativeElements";
 import { DottedCircle } from "./decorative/dottedCircle";
 import { Sparkle, StarBurst } from "./decorative/sparkle";
 import heroImage from "@/assets/hero.jpeg";
