@@ -1,7 +1,7 @@
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Sparkle, StarBurst } from "./decorative/Sparkle";
-import { DottedCircle, SolidDot } from "./decorative/DottedCircle";
+import { Sparkle, StarBurst } from "./decorative/sparkle";
+import { DottedCircle, SolidDot } from "./decorative/dottedCircle";
 
 export const AboutSection = () => {
   const ref = useScrollAnimation();
@@ -54,7 +54,6 @@ export const AboutSection = () => {
             { value: "568%", label: "Growth" },
             { value: "3.9M+", label: "Views" },
             { value: "77%", label: "Organic" },
-            { value: "12", label: "Team" },
           ].map((stat) => (
             <div
               key={stat.label}
