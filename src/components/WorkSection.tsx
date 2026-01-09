@@ -6,7 +6,7 @@ import { Sparkle } from "./decorative/sparkle";
 import { SolidDot } from "./decorative/dottedCircle";
 import iimbLogo from "@/assets/iimb logo.png";
 import csirClriLogo from "@/assets/clri.jpeg";
-import climacraftLogo from "@/assets/climacraft.jpeg";
+import climacraftLogo from "@/assets/climacraft.jpg";
 
 const workExperience = [
   {
