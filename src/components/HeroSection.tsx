@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
-import { HeroDecorations } from "./decorative/DecorativeElements";
-import { DottedCircle } from "./decorative/DottedCircle";
-import { Sparkle, StarBurst } from "./decorative/Sparkle";
+import { HeroDecorations } from "./decorative/decorativeElements";
+import { DottedCircle } from "./decorative/dottedCircle";
+import { Sparkle, StarBurst } from "./decorative/sparkle";
 import heroImage from "@/assets/hero.jpg";
 
 export const HeroSection = () => {
@@ -112,9 +112,6 @@ export const HeroSection = () => {
             {/* Annotations - Hidden on mobile */}
             <span className="hidden md:block absolute -top-[2%] right-[8%] font-handwritten text-base text-primary -rotate-[8deg] z-20">
               that's me! ✦
-            </span>
-            <span className="hidden md:block absolute bottom-[8%] left-[2%] font-handwritten text-base text-primary rotate-[5deg] z-20">
-              → 30 tabs open
             </span>
           </div>
         </div>
