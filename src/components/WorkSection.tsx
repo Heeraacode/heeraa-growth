@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { VerticalConnector } from "./decorative/ConnectingPath";
-import { Sparkle } from "./decorative/Sparkle";
-import { SolidDot } from "./decorative/DottedCircle";
-import iimbLogo from "@/assets/iimb.png";
-import csirClriLogo from "@/assets/csir.jpg";
+import { VerticalConnector } from "./decorative/connectingPath";
+import { Sparkle } from "./decorative/sparkle";
+import { SolidDot } from "./decorative/dottedCircle";
+import iimbLogo from "@/assets/iimb logo.png";
+import csirClriLogo from "@/assets/clri.jpeg";
 import climacraftLogo from "@/assets/climacraft.jpg";
 
 const workExperience = [
