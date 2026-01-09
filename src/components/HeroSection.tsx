@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight } from "./decorative/arrowPath.tsx";
 import { HeroDecorations } from "./decorative/decorativeElements";
 import { DottedCircle } from "./decorative/dottedCircle";
 import { Sparkle, StarBurst } from "./decorative/sparkle";
