@@ -4,8 +4,8 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { VerticalConnector } from "./decorative/ConnectingPath";
 import { Sparkle } from "./decorative/sparkle";
 import { SolidDot } from "./decorative/dottedCircle";
-import iimbLogo from "@/assets/iimb logo.png";
-import csirClriLogo from "@/assets/clri.jpeg";
+import iimbLogo from "@/assets/iimb.png";
+import csirClriLogo from "@/assets/csir.jpg";
 import climacraftLogo from "@/assets/climacraft.jpg";
 
 const workExperience = [
