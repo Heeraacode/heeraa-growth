@@ -1,6 +1,6 @@
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { ConnectingPath } from "./decorative/ConnectingPath";
+import { ConnectingPath } from "./decorative/connectingPath";
 import { Sparkle } from "./decorative/sparkle";
 import { SolidDot } from "./decorative/dottedCircle";
 
