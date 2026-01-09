@@ -1,7 +1,7 @@
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Sparkle, StarBurst } from "./decorative/Sparkle";
-import { DottedCircle, SolidDot } from "./decorative/DottedCircle";
+import { Sparkle, StarBurst } from "./decorative/sparkle";
+import { DottedCircle, SolidDot } from "./decorative/dottedCircle";
 import { CurvedLine } from "./decorative/CurvedLine";
 import contactImage from "@/assets/contact.jpg";
 
@@ -53,13 +53,13 @@ export const ContactSection = () => {
 
           <div className="flex flex-wrap justify-center md:justify-start gap-3">
             <a
-              href="mailto:heeraa@example.com"
+              href="mailto:heeraaananthanmit@gmail.com"
               className="px-5 py-3 bg-primary text-primary-foreground text-base font-semibold rounded-full hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(196,77,45,0.3)] transition-all hover-target"
             >
               Email Me
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/heeraa-ananthan-4b3042205/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-3 border-[1.5px] border-foreground text-foreground text-base font-semibold rounded-full hover:bg-foreground hover:text-background transition-all hover-target"
@@ -67,10 +67,16 @@ export const ContactSection = () => {
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://x.com/capyheer"
+              className="px-5 py-3 bg-primary text-primary-foreground text-base font-semibold rounded-full hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(196,77,45,0.3)] transition-all hover-target"
+            >
+              X
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1NaymrkCOgBo0kwAIckATerDdch6Kn4Nv/view?usp=sharing"
               className="px-5 py-3 border-[1.5px] border-foreground text-foreground text-base font-semibold rounded-full hover:bg-foreground hover:text-background transition-all hover-target"
             >
-              Resume ↓
+              Resume
             </a>
           </div>
         </div>
