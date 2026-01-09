@@ -1,3 +1,28 @@
+import { SectionHeader } from "./SectionHeader";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { Sparkle, StarBurst } from "./decorative/Sparkle";
+import { DottedCircle, SolidDot } from "./decorative/DottedCircle";
+import { LoopArrow } from "./decorative/ArrowPath";
+
+const projects = [
+  {
+    type: "Growth",
+    title: "IIM Bangalore · BBA(DBE)",
+    subtitle: "Brand + distribution systems",
+    description:
+      "Built the programme's narrative, content systems, and multi-channel distribution loops from 0→1.",
+    link: "#work",
+    linkText: "See experience →",
+  },
+  {
+    type: "Startup",
+    title: "Climacraft",
+    subtitle: "Climate-tech MVP",
+    description:
+      "AI-driven hydroponics for restaurants. Shipped MVP, ran pilots, then shut down post-learnings.",
+    link: "#work",
+    linkText: "See experience →",
+  },
   {
     type: "Podcast",
     title: "The DBE Show",
@@ -15,7 +40,7 @@
     description:
       "RoBERTa + clustering. Optimized for interpretability over accuracy.",
     link: "#",
-    linkText: "Read Paper →",
+    linkText: "Read paper →",
   },
 ];
 
@@ -23,7 +48,10 @@ export const ProjectsSection = () => {
   const ref = useScrollAnimation();
 
   return (
-    <section id="projects" className="relative bg-cream section-padding page-padding overflow-hidden">
+    <section
+      id="projects"
+      className="relative bg-cream section-padding page-padding overflow-hidden"
+    >
       {/* Artistic decorations */}
       <Sparkle className="top-[8%] left-[6%]" size="lg" />
       <Sparkle className="bottom-[12%] right-[8%]" size="md" />
@@ -64,10 +92,11 @@ export const ProjectsSection = () => {
               >
                 {project.linkText}
               </a>
+
               {/* Decorative annotation on featured project */}
-              {index === 0 && (
+              {index === 2 && (
                 <span className="hidden md:block absolute top-3 right-4 font-handwritten text-xs text-primary rotate-[5deg]">
-                  favorite ♥
+                  watch this ♥
                 </span>
               )}
             </div>
