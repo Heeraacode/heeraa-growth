@@ -1,8 +1,8 @@
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Sparkle, StarBurst } from "./decorative/Sparkle";
-import { DottedCircle, SolidDot } from "./decorative/DottedCircle";
-import { LoopArrow } from "./decorative/ArrowPath";
+import { Sparkle, StarBurst } from "./decorative/sparkle";
+import { DottedCircle, SolidDot } from "./decorative/dottedCircle";
+import { LoopArrow } from "./decorative/arrowPath";
 
 const projects = [
   {
