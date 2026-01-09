@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { VerticalConnector } from "./decorative/connectingPath";
+import { VerticalConnector } from "./decorative/ConnectingPath";
 import { Sparkle } from "./decorative/sparkle";
 import { SolidDot } from "./decorative/dottedCircle";
 import iimbLogo from "@/assets/iimb logo.png";
