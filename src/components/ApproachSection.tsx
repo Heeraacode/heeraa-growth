@@ -1,8 +1,8 @@
 import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { ConnectingPath } from "./decorative/ConnectingPath";
-import { Sparkle } from "./decorative/Sparkle";
-import { SolidDot } from "./decorative/DottedCircle";
+import { Sparkle } from "./decorative/sparkle";
+import { SolidDot } from "./decorative/dottedCircle";
 
 const steps = [
   { num: "01", title: "Define ICP", note: '"vague = vague"' },
