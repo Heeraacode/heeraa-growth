@@ -2,7 +2,7 @@ import { SectionHeader } from "./SectionHeader";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Sparkle, StarBurst } from "./decorative/sparkle";
 import { DottedCircle, SolidDot } from "./decorative/dottedCircle";
-import { CurvedLine } from "./decorative/CurvedLine";
+import { CurvedLine } from "./decorative/curvedLine";
 import contactImage from "@/assets/contact.jpg";
 
 export const ContactSection = () => {
