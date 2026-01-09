@@ -15,7 +15,7 @@ export const PrinciplesSection = () => {
   const ref = useScrollAnimation();
 
   return (
-    <section className="bg-cream section-padding page-padding">
+    <section id="principles" className="bg-cream section-padding page-padding">
       <div className="max-w-[950px] mx-auto" ref={ref}>
         <SectionHeader number="05" label="Principles" />
 
